@@ -34,7 +34,7 @@ const Navbar = ({ activeSection, setActiveSection }: { activeSection: SectionId,
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
-
+// --- Navigation Items ---
   const navItems: { id: SectionId; label: string }[] = [
     { id: 'home', label: 'Home' },
     { id: 'what-is', label: 'What is Healthwashing' },
