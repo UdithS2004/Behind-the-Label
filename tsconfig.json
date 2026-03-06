@@ -1,4 +1,5 @@
 {
+  "_comment": "Configuration for the Behind-the-Label project. This field is ignored by TypeScript and safe to leave here.",
   "compilerOptions": {
     "target": "ES2022",
     "experimentalDecorators": true,
